@@ -40,7 +40,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         borderRadius: BorderRadius.only(bottomRight: Radius.circular(50),bottomLeft: Radius.circular(50))
                     ),
                     child:  Padding(
-                      padding: const EdgeInsets.only(top: 8.0),
+                      padding: const EdgeInsets.only(top: 8.0 ),
                       child: Stack(
                           children:[
                             Column(
@@ -49,7 +49,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   mainAxisAlignment: MainAxisAlignment.start,
                                   children: [
                                     IconButton(onPressed: (){}, icon: Icon(Icons.menu)),
-                                    SizedBox(width: 60,),
+                                    SizedBox(width: 3,),
                                     Text("S T A R T",style: TextStyle(color: Colors.yellow,fontSize: 18,fontWeight: FontWeight.bold),),
                                     SizedBox(width: 9,),
                                     Text("B U Y     🎁",style: TextStyle(color: Colors.black,fontWeight:FontWeight.bold,fontSize: 20),),
